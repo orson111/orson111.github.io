@@ -55,4 +55,6 @@ jobs:
           git push --force origin pages
 
         env:
-          CI: true
+          REPO_URL: "orson111/orson111.github.io"  # 改为你自己的仓库  
+          BUILD_PATH: ".vitepress/dist"  # 构建输出路径，不要改  
+          CUSTOM_DOMAIN: "orson111.github.io"  # 改为你自己的自定义域名
